@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+      }  
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }  
+    </style>
+    <h1> Find Your Next Best Friend!</h1>
+  </head>
+      <body>
+          <title>Catstone -- Adopt a Kitty in Your Area!</title>
+        <div class="header">
+        <div class="container">
+           <div class="navbar">
+               <div class="logo">
+                   <img src=""> 
+               </div>
+               <nav>
+                   <ul id="Cats">
+                       <li><a href="">Home</a></li>
+                       <li><a href="">Find A Cat</a></li>
+                       <li><a href="">About Us</a></li>
+                       <li><a href="">Meet The Team</a></li>
+                       <li><a href="">Contact Us</a></li>
+                   </ul>
+           </div>
+        </div>
+      </div>
+      
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 23%;
+          padding: 25px 50px 75px 100px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="column">
+                <img src="Images/Min1.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat2.jpg" width="180px" height="180px">
+                <h2>White</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat4.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat5.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img src="Images/Cat6.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat7.jpg" width="180px" height="180px">
+                <h2>White</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat8.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat9.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img src="Images/Cat6.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat7.jpg" width="180px" height="180px">
+                <h2>White</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat8.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat9.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img src="Images/Cat10.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat11.jpg" width="180px" height="180px">
+                <h2>White</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat12.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div>
+            <div class="column">
+                <img src="Images/Cat9.jpg" width="180px" height="180px">
+                <h2>Ginger Kitten</h2>
+            </div> 
+        </div>
+    </div>    
+    <p>
+    Click here for the list of animals
+    </p>
+        </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
