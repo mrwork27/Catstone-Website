@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+      }  
+      h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }  
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul{
+        display: inline-block;
+        list-style-position: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #555;
+    }
+    p{
+        color: #555;
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .column-2{
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    .column-2 img{
+        max-width: 100%;
+        padding: 50px 0;
+    }
+    </style>
+  </head>
+      <body>
+          <title>Catstone -- Adopt a Kitty in Your Area!</title>
+          <h1> Find Your Next Best Friend!<br>Give Your Workout A New Style!</h1>
+        <div class="header">
+        <div class="container">
+           <div class="navbar">
+               <div class="logo">
+                   <img src=""> 
+               </div>
+               <nav>
+                   <ul id="Cats">
+                       <li><a href="">Home</a></li>
+                       <li><a href="">Find A Cat</a></li>
+                       <li><a href="">About Us</a></li>
+                       <li><a href="">Meet The Team</a></li>
+                       <li><a href="">Contact Us</a></li>
+                   </ul>
+           </div>
+        </div>
+      </div>
+      <div class="row">
+           <div class="column-2">
+               <h2>Give A Cat<br>A New Home!</h2>
+               <p>Success isn't always aboutnasjkdknasjdnadfafdfjka<br>dsjfndshfjnsdjfnfds.</p>
+               <a href="" class="btn">Explore Now</a>
+           </div>
+
+      </div>        
+      <div class="column-2">
+        <img src="C:\Users\suura\Desktop\CAT Project\Images\CAThomePic.jpg" width="400px" height="400px">
+   </div>
+        
+            
+    
+        </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
