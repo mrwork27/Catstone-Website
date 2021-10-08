@@ -95,10 +95,9 @@
         <img src="C:\Users\suura\Desktop\CAT Project\Images\CAThomePic.jpg" width="400px" height="400px">
    </div>
         
-            <footer>
-  <p>Author: Catstone Group 4<br>
+         	  <footer>
+ <p align="center">Author: Catstone Group 4<br>
   <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
-</footer>  
     
         </body>
 </html>
