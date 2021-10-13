@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">               <!-- This sets the page to auto adjust the width to the user's screen size -->
+    <title>Catstone -- Find A Cat</title>                                                <!-- This places the name of the page in the browser tab -->
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">                           <!-- Adds in an image to the tab- in this case the logo we designed -->
+    <link rel="stylesheet" href="styles.css">                                            <!-- References the external CSS style sheet- this was the best way to keep the site consistent and the code short for each page -->
+  </head>
+  <body>
+
+      <header>
+            <a href="Home.html">                                                         <!-- -->
+            <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">     <!-- This adds an image to the menu bar -->
+            </a>
+          <nav>
+              <ul class="nav_links">                                                     <!-- ul -->
+                  <li id="Home"><a href="Home.html">Home</a></li>                        <!-- Defines each link on the navigation bar- there is a seperate line for the individual pages to link them together -->
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="Contact Us.html"><button>Contact Us</button></a>          <!-- CTA class means call to action - so the button is formatted correctly in the menu bar -->
+      </header>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 23%;
+          padding: 25px 50px 75px 100px;
+        }
+
+         /* Clearfix (clear floats) */
+         .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+       
+        </style>
+
+    <p align="center">
+    Check out our furry friends available to adopt here!
+    </p>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" width="180px" height="180px"> 
+                <h2>Kevin</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" width="180px" height="180px">
+                <h2>Butch</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="Black_O.PNG" width="180px" height="180px">
+                <h2>Iris</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="White_P.PNG" width="180px" height="180px">
+                <h2>Luna</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Pink" src="Black_P.PNG" width="180px" height="180px">
+                <h2>Panther</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="White_O.PNG" width="180px" height="180px">
+                <h2>Steve</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" width="180px" height="180px">
+                <h2>Dennis</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" width="180px" height="180px">
+                <h2>Juno</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" width="180px" height="180px">
+                <h2>Brooklyn</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" width="180px" height="180px">
+                <h2>Lisa</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="White_P.PNG" width="180px" height="180px">
+                <h2>Lemon</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="Black_O.PNG" width="180px" height="180px">
+                <h2>Audrey</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Orange" src="White_O.PNG" width="180px" height="180px">
+                <h2>Cat</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="Black_P.PNG" width="180px" height="180px">
+                <h2>Bob</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" width="180px" height="180px">
+                <h2>Cedric</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" width="180px" height="180px">
+                <h2>Frank</h2>
+            </div> 
+        </div>
+    </div>    
+
+    
+    
+    <footer>
+        <p align="center">Author: Catstone Group 4<br>
+         <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+     </footer> 
+    
+    
+  </body>
+</html>
