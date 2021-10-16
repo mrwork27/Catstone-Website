@@ -220,12 +220,9 @@
         }
         </script>
         
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-<footer>
-    <p align="center">Author: Catstone Group 4<br>
-        <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
-    </footer>   
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxsm2K_BQHHNUumW4MjNKoWGgj-67Wlg&callback=myMap"></script>
     
-    
+
+
   </body>
 </html>
