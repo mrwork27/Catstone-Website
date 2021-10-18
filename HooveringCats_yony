@@ -346,7 +346,7 @@ Binary file not shown.
         </style>
 
     <p align="center">
-    Check out our furry friends available to adopt here!
+    Check out our furry friends available to adopt here!           /* in every onmouseover should be paste a B&W picture */ 
     </p>
 
     <div class="small-container">
