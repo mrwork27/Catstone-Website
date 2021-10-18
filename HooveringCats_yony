@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catstone -- About Us</title>
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <style>
+    a:hover {
+      color: #03C3EB
+    }
+  </style>
+  <body>
+
+      <header>
+          <a href="Home.html">
+          <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">
+          </a>
+          <nav>
+              <ul class="nav_links">
+                  <li id="Home"><a href="Home.html">Home</a></li>
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="Contact Us.html"><button>Contact Us</button></a>
+      </header>
+
+    <h1>About Us!</h1>
+      <br>
+        <p align="center">Catstone have been on a mission to find safe and loving homes for any and all abandoned animals- 
+          and we've been showcasing some of our furry friends through flyers and adverts for a long time now.
+          <br>
+          <br>
+          <br>
+          Rehoming cats has become the cornerstone of what we do, so why not try and bring the fluffy joy to more
+          people? Welcome to our all new website, which will give even more people the opportunity to adopt their own 
+          bundle of love. Alongside this, we're reducing our impact on the environment by switching from our past use
+          of paper flyers to giving all of our cats a space on the site to show off their personalities!
+          <br>
+          <br>
+          <br>
+          Why not check out our <a href="Find A Cat.html">Find A Cat</a> page to find out more about Luna, Cedric, Iris and the gang!
+        </p>
+
+        <br>
+        <br>
+        <br>
+    <footer>
+        <p align="center">Author: Catstone Group 4<br>
+         <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+     </footer>  
+
+
+  </body>
+</html> 
+ BIN +431 KB Beige_B.PNG 
+Binary file not shown.
+ BIN +422 KB Beige_G.PNG 
+Binary file not shown.
+ BIN +427 KB Beige_O.PNG 
+Binary file not shown.
+ BIN +423 KB Beige_P.PNG 
+Binary file not shown.
+ BIN +418 KB Black_B.PNG 
+Binary file not shown.
+ BIN +413 KB Black_G.PNG 
+Binary file not shown.
+ BIN +416 KB Black_O.PNG 
+Binary file not shown.
+ BIN +412 KB Black_P.PNG 
+Binary file not shown.
+ BIN +439 KB Brown_B.PNG 
+Binary file not shown.
+ BIN +431 KB Brown_G.PNG 
+Binary file not shown.
+ BIN +433 KB Brown_O.PNG 
+Binary file not shown.
+ BIN +431 KB Brown_P.PNG 
+Binary file not shown.
+ 216  Contact Us.html 
+@@ -0,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catstone -- Contact Us</title>
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+
+  <style>
+    a:hover {
+      color: #03C3EB
+    }
+  </style>
+
+  <body>
+
+      <header>
+          <a href="Home.html">
+          <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">
+          </a>
+          <nav>
+              <ul class="nav_links">
+                  <li id="Home"><a href="Home.html">Home</a></li>
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="Contact Us.html"><button>Contact Us</button></a>
+      </header> 
+
+     <h1 align="center" >Are you interested in rehoming one of the Cats you've seen? 
+          <br>
+          Leave your details below and we'll be in touch!</h1>
+        <p align="center">We promise we won't use your data for any other purpose than to contact you regarding your query - 
+        <br> 
+          if you would ever like to remove your data from our contact list please let us know <a href="mailto:catstonegroup4@academy.in40.co.uk">here</a>!
+        </p>
+        <br>
+      </header>
+
+  <div class="container">
+     <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <br>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+      <br>
+      <label for="lname">Last Name</label>
+      <br>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <br>
+      <label for="email">Email</label>
+      <br>
+      <input type="text" id="email" name="emailaddress" placeholder="Your Email..">
+      <br>
+      <label for="city">City</label>
+      <br>
+      <select id="city" name="city">
+      <br>
+
+              <option value="--England--">--England--</option>
+              <option value="Avon">Avon</option>
+              <option value="Bedfordshire">Bedfordshire</option>
+              <option value="Berkshire">Berkshire</option>
+              <option value="Bristol">Bristol</option>
+              <option value="Buckinghamshire">Buckinghamshire</option>
+              <option value="Cambridgeshire">Cambridgeshire</option>
+              <option value="Cheshire">Cheshire</option>
+              <option value="Cleveland">Cleveland</option>
+              <option value="Cornwall">Cornwall</option>
+              <option value="Cumbria">Cumbria</option>
+              <option value="Derbyshire">Derbyshire</option>
+              <option value="Devon">Devon</option>
+              <option value="Dorset">Dorset</option>
+              <option value="Durham">Durham</option>
+              <option value="East Riding of Yorkshire">East Riding of Yorkshire</option>
+              <option value="East Sussex">East Sussex</option>
+              <option value="Essex">Essex</option>
+              <option value="Gloucestershire">Gloucestershire</option>
+              <option value="Greater Manchester">Greater Manchester</option>
+              <option value="Hampshire">Hampshire</option>
+              <option value="Herefordshire">Herefordshire</option>
+              <option value="Hertfordshire">Hertfordshire</option>
+              <option value="Humberside">Humberside</option>
+              <option value="Isle of Wight">Isle of Wight</option>
+              <option value="Isles of Scilly">Isles of Scilly</option>
+              <option value="Kent">Kent</option>
+              <option value="Lancashire">Lancashire</option>
+              <option value="Leicestershire">Leicestershire</option>
+              <option value="Lincolnshire">Lincolnshire</option>
+              <option value="London">London</option>
+              <option value="Merseyside">Merseyside</option>
+              <option value="Middlesex">Middlesex</option>
+              <option value="Norfolk">Norfolk</option>
+              <option value="North Yorkshire">North Yorkshire</option>
+              <option value="Northamptonshire">Northamptonshire</option>
+              <option value="Northumberland">Northumberland</option>
+              <option value="Nottinghamshire">Nottinghamshire</option>
+              <option value="Oxfordshire">Oxfordshire</option>
+              <option value="Rutland">Rutland</option>
+              <option value="Shropshire">Shropshire</option>
+              <option value="Somerset">Somerset</option>
+              <option value="South Yorkshire">South Yorkshire</option>
+              <option value="Staffordshire">Staffordshire</option>
+              <option value="Suffolk">Suffolk</option>
+              <option value="Surrey">Surrey</option>
+              <option value="Tyne and Wear">Tyne and Wear</option>
+              <option value="Warwickshire">Warwickshire</option>
+              <option value="West Midlands">West Midlands</option>
+              <option value="West Sussex">West Sussex</option>
+              <option value="West Yorkshire">West Yorkshire</option>
+              <option value="Wiltshire">Wiltshire</option>
+              <option value="Worcestershire">Worcestershire</option>
+              <option value="">&nbsp</option>
+              <option value="--UK Offshore--">--UK Offshore--</option>
+              <option value="Channel Islands">Channel Islands</option>
+              <option value="Isle of Man">Isle of Man</option>
+              <option value="">&nbsp</option>
+              <option value="--Northern Ireland--">--Northern Ireland--</option>
+              <option value="Antrim">Antrim</option>
+              <option value="Armagh">Armagh</option>
+              <option value="Down">Down</option>
+              <option value="Fermanagh">Fermanagh</option>
+              <option value="Londonderry">Londonderry</option>
+              <option value="Tyrone">Tyrone</option>
+              <option value="">&nbsp</option>
+              <option value="--Scotland--">--Scotland--</option>
+              <option value="Aberdeen City">Aberdeen City</option>
+              <option value="Aberdeenshire">Aberdeenshire</option>
+              <option value="Angus">Angus</option>
+              <option value="Argyll and Bute">Argyll and Bute</option>
+              <option value="Borders">Borders</option>
+              <option value="Clackmannan">Clackmannan</option>
+              <option value="Dumfries and Galloway">Dumfries and Galloway</option>
+              <option value="Dundee (City of)">Dundee (City of)</option>
+              <option value="East Ayrshire">East Ayrshire</option>
+              <option value="East Dunbartonshire">East Dunbartonshire</option>
+              <option value="East Lothian">East Lothian</option>
+              <option value="East Renfrewshire">East Renfrewshire</option>
+              <option value="Edinburgh (City of)">Edinburgh (City of)</option>
+              <option value="Falkirk">Falkirk</option>
+              <option value="Fife">Fife</option>
+              <option value="Glasgow (City of)">Glasgow (City of)</option>
+              <option value="Highland">Highland</option>
+              <option value="Inverclyde">Inverclyde</option>
+              <option value="Midlothian">Midlothian</option>
+              <option value="Moray">Moray</option>
+              <option value="North Ayrshire">North Ayrshire</option>
+              <option value="North Lanarkshire">North Lanarkshire</option>
+              <option value="Orkney">Orkney</option>
+              <option value="Perthshire and Kinross">Perthshire and Kinross</option>
+              <option value="Renfrewshire">Renfrewshire</option>
+              <option value="Shetland">Shetland</option>
+              <option value="South Ayrshire">South Ayrshire</option>
+              <option value="South Lanarkshire">South Lanarkshire</option>
+              <option value="Stirling">Stirling</option>
+              <option value="West Dunbartonshire">West Dunbartonshire</option>
+              <option value="West Lothian">West Lothian</option>
+              <option value="Western Isles">Western Isles</option>
+              <option value="">&nbsp</option>
+              <option value="--Wales--">--Wales--</option>
+              <option value="Blaenau Gwent">Blaenau Gwent</option>
+              <option value="Bridgend">Bridgend</option>
+              <option value="Caerphilly">Caerphilly</option>
+              <option value="Cardiff">Cardiff</option>
+              <option value="Carmarthenshire">Carmarthenshire</option>
+              <option value="Ceredigion">Ceredigion</option>
+              <option value="Conwy">Conwy</option>
+              <option value="Denbighshire">Denbighshire</option>
+              <option value="Flintshire">Flintshire</option>
+              <option value="Gwynedd">Gwynedd</option>
+              <option value="Isle of Anglesey">Isle of Anglesey</option>
+              <option value="Merthyr Tydfil">Merthyr Tydfil</option>
+              <option value="Monmouthshire">Monmouthshire</option>
+              <option value="Neath Port Talbot">Neath Port Talbot</option>
+              <option value="Newport">Newport</option>
+              <option value="Pembrokeshire">Pembrokeshire</option>
+              <option value="Powys">Powys</option>
+              <option value="Rhondda Cynon Taff">Rhondda Cynon Taff</option>
+              <option value="Swansea">Swansea</option>
+              <option value="Torfaen">Torfaen</option>
+              <option value="The Vale of Glamorgan">The Vale of Glamorgan</option>
+              <option value="Wrexham">Wrexham</option>
+              </select>
+      <br>
+      <textarea id="subject" name="subject" placeholder="Write your message here..." style="height:150px"></textarea>
+      <br>
+      <br>
+          <input type="submit" value="Submit">
+
+        </form>
+      </div>
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+<footer>
+    <p align="center">Author: Catstone Group 4<br>
+        <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+    </footer>   
+
+
+  </body>
+</html> 
+ 131  Find A Cat.html 
+@@ -0,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">               <!-- This sets the page to auto adjust the width to the user's screen size -->
+    <title>Catstone -- Find A Cat</title>                                                <!-- This places the name of the page in the browser tab -->
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">                           <!-- Adds in an image to the tab- in this case the logo we designed -->
+    <link rel="stylesheet" href="styles.css">                                            <!-- References the external CSS style sheet- this was the best way to keep the site consistent and the code short for each page -->
+  </head>
+  <body>
+
+      <header>
+            <a href="Home.html">                                                         <!-- -->
+            <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">     <!-- This adds an image to the menu bar -->
+            </a>
+          <nav>
+              <ul class="nav_links">                                                     <!-- ul -->
+                  <li id="Home"><a href="Home.html">Home</a></li>                        <!-- Defines each link on the navigation bar- there is a seperate line for the individual pages to link them together -->
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="Contact Us.html"><button>Contact Us</button></a>          <!-- CTA class means call to action - so the button is formatted correctly in the menu bar -->
+      </header>
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 23%;
+          padding: 25px 50px 75px 100px;
+        }
+
+         /* Clearfix (clear floats) */
+         .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        </style>
+
+    <p align="center">
+    Check out our furry friends available to adopt here!
+    </p>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="column">
+                <img class="Blue" src="Images/Beige_B.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_B.png'" width="180px" height="180px"/> 
+                <h2>Kevin</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Images/Beige_G.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_G.png'" width="180px" height="180px">
+                <h2>Butch</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="Images/Beige_O.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_O.png'" width="180px" height="180px">
+                <h2>Iris</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="Images/Beige_P.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_P.png'" width="180px" height="180px">
+                <h2>Luna</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Pink" src="Images/Black_B.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_B.png'" width="180px" height="180px">
+                <h2>Panther</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="Images/Black_G.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_G.png'" width="180px" height="180px">
+                <h2>Steve</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Images/Black_O.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_O.png'" width="180px" height="180px">
+                <h2>Dennis</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Images/Brown_B.png" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_B.png'" width="180px" height="180px">
+                <h2>Juno</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_G.png'" width="180px" height="180px">
+                <h2>Brooklyn</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_B.png'" width="180px" height="180px">
+                <h2>Lisa</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="White_P.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_P.png'" width="180px" height="180px">
+                <h2>Lemon</h2>
+            </div>
+            <div class="column">
+                <img class="Orange" src="Black_O.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Black_O.png'"width="180px" height="180px">
+                <h2>Audrey</h2>
+            </div>
+        <div class="row">
+            <div class="column">
+                <img class="Orange" src="Brown_O.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Brown_O.png'" width="180px" height="180px">
+                <h2>Cat</h2>
+            </div>
+            <div class="column">
+                <img class="Pink" src="Black_P.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Black_P.png'" width="180px" height="180px">
+                <h2>Bob</h2>
+            </div>
+            <div class="column">
+                <img class="Blue" src="Beige_B.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Images/Beige_B.png'" width="180px" height="180px">
+                <h2>Cedric</h2>
+            </div>
+            <div class="column">
+                <img class="Green" src="Brown_G.PNG" onmouseover="this.src='Images/Beige_G.png'" onmouseout="this.src='Brown_G.png'" width="180px" height="180px">
+                <h2>Frank</h2>
+            </div> 
+        </div>
+    </div>    
+
+
+
+    <footer>
+        <p align="center">Author: Catstone Group 4<br>
+         <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+     </footer> 
+
+
+  </body>
+</html> 
+ 39  Home.html 
+@@ -0,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catstone -- Home</title>
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+
+      <header>
+          <a href="Home.html">
+          <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">
+          </a>
+          <nav>
+              <ul class="nav_links">
+                  <li id="Home"><a href="Home.html">Home</a></li>
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="#"><button>Contact Us</button></a>
+      </header>
+
+      <h1 align="center">Welcome to Catstone! Find your furry friend here!</h1>
+
+    <p align="center"><img src="thumbnail.PNG" alt="Catstone Logo"></p>
+
+
+
+<footer>
+    <p align="center">Author: Catstone Group 4<br>
+        <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+    </footer>   
+
+
+  </body>
+</html> 
+ 79  Meet The Team.html 
+@@ -0,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catstone -- Meet The Team</title>
+    <link rel="icon" href="thumbnail.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+
+      <header>
+          <a href="Home.html">
+          <img class="logo" src="thumbnail.png" alt="logo" width="50" height="50">
+          </a>
+          <nav>
+              <ul class="nav_links">
+                  <li id="Home"><a href="Home.html">Home</a></li>
+                  <li id="About_Us"><a href="About Us.html">About Us</a></li>
+                  <li id="Find_A_Cat"><a href="Find A Cat.html">Find A Cat</a></li>
+                  <li id="Meet_The_Team"><a href="Meet The Team.html">Meet The Team</a></li>
+              </ul>
+          </nav>
+          <a class="cta" href="Contact Us.html"><button>Contact Us</button></a>
+      </header>
+
+    <h1>Meet our Adoptees!</h1>
+    <p> Our cats come from a million different backgrounds, not unlike Catstone's creators.
+        Make sure to check out the cats we currently have needing homes, as well as some 
+        essential products to help you give your new friend the best home on our Find A Cat page. 
+        Keep reading to find out more about the human helpers that make it happen!</p>
+
+    <h2>Who we are</h2>
+
+    <h3>Michael</h3>
+    <img src="logo.png" width="200" height="40" />
+    <p>
+      As a lifelong dog lover, Michael only learned to appreciate cats more
+      recently. After reading online that cats don't like eye contact, he
+      learned to look away to initiate cuddles. It works more often than not and
+      he's happier now.
+    </p>
+
+    <h3>Lauren</h3>
+
+    <p>Wanting to save the world's abandoned animals, Lauren joins the Catstone
+        team with a passion for all things fluffy. Cats and dogs are her tied second
+        favourite animals, only settling behind Llamas - if she could fit one in her house she would!
+    </p>
+
+    <h3>Member 3</h3>
+
+    <p>Text goes here</p>
+
+    <h3>Member 4</h3>
+
+    <p>Text goes here</p>
+
+    <h3>Member 5</h3>
+
+    <p>Text goes here</p>
+
+    <h3>Member 6</h3>
+
+    <p>Text goes here</p>
+
+    <h4>
+      Feel free to get in touch with us to talk about cats, technology or
+      technological cats.
+    </h4>
+
+
+  <footer>
+      <p align="center">Author: Catstone Group 4<br>
+       <a href="mailto:catstonegroup4@academy.in40.co.uk"> catstonegroup4@academy.in40.co.uk</a></p>
+  </footer>  
+
+
+  </body>
+</html> 
+ BIN +382 KB White_B.PNG 
+Binary file not shown.
+ BIN +381 KB White_G.PNG 
+Binary file not shown.
+ BIN +382 KB White_O.PNG 
+Binary file not shown.
+ BIN +381 KB White_P.PNG 
+Binary file not shown.
+ BIN +19.1 KB logo.png 
+Binary file not shown.
+ 108  styles.css 
+@@ -0,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li, a, button {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li, a {
+    color: #7f7f7f;
+}
+
+button {
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+/* The below lines change the hover colour of the navigation bar*/
+#Home a:hover {
+    color: #03C3EB
+}
+
+#About_Us a:hover {
+    color: #d17cb0
+}
+
+#Find_A_Cat a:hover {
+    color: #eebf70
+}
+
+#Meet_The_Team a:hover {
+    color: #b9d07f
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(3,195,235,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(3,195,235,0.3);
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #03C3EB
+}
+
+HL1 a:hover {
+    color: #03C3EB
+}
+
+.Pink:hover {
+    background: url("Orange.PNG") no-repeat;
+}
+
+.Blue:hover {
+    background: url("Pink.PNG") no-repeat;
+}
+
+.Green:hover {
+    background: url("Blue.PNG") no-repeat;
+}
+
+.Orange:hover {
+    background: url("Green.PNG") no-repeat;
+}
