@@ -39,7 +39,7 @@
         </p>
         <br>
       </header>
-      <h2>0161-78548</h2>
+      <h2>0161-78548</h2>  /* new code */
 
         <button onclick="myFunction()">CALL NOW</button>
         
@@ -47,7 +47,7 @@
         function myFunction() {
           alert("I am an alert box!");
         }
-        </script>
+        </script>        /* until here*/
 
 
   <div class="container">
