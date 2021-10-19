@@ -41,7 +41,7 @@
       </header>
       <h2>0161-78548</h2>  /* new code */
 
-        <button onclick="myFunction()">CALL NOW</button>
+        <button onclick="myFunction()">CALL NOW <br> </button>
         
         <script>
         function myFunction() {
